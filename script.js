@@ -1,5 +1,5 @@
-const dino = document.querySelector('.dino');
-const background = document.querySelector('.background');
+const dino = document.querySelector('.dinossauro');
+const background = document.querySelector('.fundo');
 
 let isJumping = false;
 let isGameOver = false;
@@ -45,7 +45,7 @@ function createCactus() {
 
   if (isGameOver) return;
 
-  cactus.classList.add('cactus');
+  cactus.classList.add('cacto');
   background.appendChild(cactus);
   cactus.style.left = cactusPosition + 'px';
 
